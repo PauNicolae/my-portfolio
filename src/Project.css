@@ -1,0 +1,9 @@
+.box{
+display: flex;
+justify-content: center;
+/* align-items: center;
+align-content: center; */
+background-color: pink;
+margin-top: 15rem;
+/* gap: 5rem; */
+}

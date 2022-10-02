@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Griffy&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+
+
+a.navbar-brand{
+    font-family: 'Griffy', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+a.nav-link{
+    color:white;
+}
