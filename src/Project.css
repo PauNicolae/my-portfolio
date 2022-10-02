@@ -1,9 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+
 .box{
 display: flex;
 justify-content: center;
-/* align-items: center;
-align-content: center; */
-background-color: pink;
-margin-top: 15rem;
-/* gap: 5rem; */
+align-items: center;
+align-content: center;
+margin-left: 3rem;
+margin-right: 3rem;
+}
+
+.card-img-top{
+    background-color: transparent;
+}
+
+
+.scroll{
+    margin-top: 8rem;
 }
