@@ -7,11 +7,11 @@ import '../Navbar.css'
 
 function TextLinkExample() {
    return (
-      <Navbar>
+      <Navbar collapseOnSelect expand="lg" variant="dark">
          <Container>
             <Navbar.Brand href="/">Pau Nicolae</Navbar.Brand>
-            <Navbar.Toggle />
-            <Navbar.Collapse className="justify-content-end">
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                <Nav>
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/Projects">Projects</Nav.Link>

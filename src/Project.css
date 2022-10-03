@@ -55,9 +55,10 @@ div.card-title{
     height: 3rem;
 }
 
-@media screen and (min-width: 340px) and (max-width:380px){
+
+@media screen and (min-width: 320px) and (max-width:380px){
     .scroll{
-        width: 80%;
+        width: 75%;
     }  
     
     div.card-body{
@@ -66,7 +67,7 @@ div.card-title{
     }
 
     p.card-text{
-        height: 15rem;
+        height: 16rem;
     }
 
     div.card-title{
