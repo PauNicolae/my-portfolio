@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bebas+Neue&family=Griffy&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
  }
 
+ div.card-title{
+    margin-bottom: 2rem;
+ }
+
+.site-button{
+    padding: .8rem 1.5rem;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
 
 .box{
 display: flex;
@@ -13,11 +27,77 @@ margin-left: 3rem;
 margin-right: 3rem;
 }
 
-.card-img-top{
+/* .card-img-top{
     background-color: transparent;
-}
+} */
 
 
 .scroll{
-    margin-top: 8rem;
+    margin-top: 1rem;
+}
+
+div.card-body{
+    min-height: 20rem;
+    max-height: 25rem;
+}
+
+p.card-text{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 480px){
+    .scroll{
+        width: 80%;
+    }  
+    
+    div.card-body{
+        min-height: 20rem;
+        max-height: 28rem;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:767px){
+    div.card-body{
+        min-height: 25rem;
+        max-height: 25rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px){
+    div.card-body{
+        min-height: 25rem;
+        max-height: 30rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1150px){
+    div.card-body{
+        min-height: 34rem;
+        max-height: 34rem;
+    }  
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1279px){
+    div.card-body{
+        min-height: 30rem;
+        max-height: 30rem;
+    }  
+}
+
+@media screen and (min-width: 1280px) and (max-width:1360px){
+    div.card-body{
+        min-height: 25rem;
+        max-height: 32rem;
+    }   
+}
+
+@media screen and (min-width: 1361px) and (max-width:1600px){
+    div.card-body{
+        min-height: 25rem;
+        max-height: 28rem;
+    }  
 }
