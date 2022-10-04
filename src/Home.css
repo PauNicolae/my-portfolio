@@ -22,7 +22,7 @@ body{
     background-image: url('/public/castle2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 94vh;
+    min-height: 120vh;
     max-width:100%;
 }
 

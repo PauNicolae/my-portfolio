@@ -7,11 +7,13 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.1",
+    "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^4.0.2",
+    "sweetalert2": "^11.4.37",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,6 +41,10 @@
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^6.4.1"
+    "node-sass": "^7.0.3",
+    "react-router-dom": "^6.4.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.0.2",
+    "webpack": "^5.74.0"
   }
 }
