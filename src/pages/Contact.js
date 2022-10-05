@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 import '../Contact.css';
 import '../Home.css';
 import Swal from 'sweetalert2';
-// import MovingText from 'react-moving-text';
+import MovingText from 'react-moving-text';
 
 
 
@@ -37,14 +37,14 @@ function Contact() {
       <img className="scroll" src="../contact.png" alt="" />
       
     <section className="contact-section">
-    {/* <MovingText
+    <MovingText
   type="fadeIn"
   duration="2000ms"
   delay="0s"
   direction="normal"
   timing="ease"
   iteration="1"
-  fillMode="none"> */}
+  fillMode="none">
     <div className="contact-form">
  
     <h1 class="mb-4">Get in touch</h1>
@@ -67,7 +67,7 @@ function Contact() {
     </form>
     
     </div>
-    {/* </MovingText> */}
+    </MovingText>
     </section>
     </div>
   );
