@@ -61,3 +61,40 @@ body{
     }
   }
   
+
+  /* .nopage{
+    display: flex;
+    justify-content: center;
+  } */
+
+  .section404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 10rem;
+    background-color: rgba(255,255,255,0.3);
+  }
+
+.book{
+  max-width: 100%;
+}
+
+  .about-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 320px) and (max-width:380px){
+    .scroll{
+      width: 75%;
+  }
+  }
+
+  @media screen and (min-width: 381px) and (max-width: 480px){
+    .scroll{
+        width: 80%;
+    }  
+  }

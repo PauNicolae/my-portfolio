@@ -18,6 +18,11 @@
     border-radius: 15px;
 }
 
+.site-button:hover{
+    color: white;
+    filter: brightness(80%);
+}
+
 .box{
 display: flex;
 justify-content: center;
