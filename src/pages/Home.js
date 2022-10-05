@@ -14,7 +14,7 @@ const Home = () => {
             words={['Hi👋', 'My name is', 'Pauline!👧', 'Welcome', 'to my', 'world!💚']}
             loop={5}
             cursor
-            cursorStyle='_'
+            cursorStyle='|'
             typeSpeed={70}
             deleteSpeed={50}
             delaySpeed={1000}
@@ -22,7 +22,7 @@ const Home = () => {
         </span>
         <a
           className="App-button"
-          href="/Projects"
+          href="/About"
         >
           Click here
         </a>
