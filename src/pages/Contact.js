@@ -47,7 +47,7 @@ function Contact() {
         <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="user_name" required/>
     
         
-        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="user_email required"/>
+        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="user_email" required/>
     
      
         <div class="form-group">
