@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="App-header">
         <img src={sun} className="App-logo" alt="sun" />
-        <span style={{ color: 'green', fontWeight: 'bold', fontSize: 120}}>
+        <span className="welcome-text" style={{ color: 'green', fontWeight: 'bold'}}>
           {/* Style will be inherited from the parent element */}
           <Typewriter
             words={['Hi👋', 'My name is', 'Pauline!👧', 'Welcome', 'to my', 'world!💚']}
