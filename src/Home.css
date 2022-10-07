@@ -100,7 +100,7 @@ body{
   }
 
   .App-header {
-    margin-top: 10rem;
+    margin-top: 12rem;
   }
 
   .welcome-text{
@@ -112,6 +112,11 @@ body{
     padding: .7rem 1.5rem;
     font-size: 1rem;
   }
+
+  .App-logo {
+    /* height: 40vmin; */
+  display:none;
+  }
   }
 
   @media screen and (min-width: 381px) and (max-width: 480px){
@@ -120,46 +125,72 @@ body{
     }  
 
     .App-header {
-      margin-top: 10rem;
+      margin-top: 12rem;
     }
 
     .welcome-text{
-      font-size: 3rem;
-      height: 5rem;
+      font-size: 4rem;
+      height: 7rem;
     }
 
     .App-button {
       padding: .7rem 1.5rem;
       font-size: 1rem;
+    }
+
+    .App-logo {
+      /* height: 40vmin; */
+    display:none;
     }
   }
 
 
   @media screen and (min-width: 481px) and (max-width:575px){
     .App-header {
-      margin-top: 10rem;
+      margin-top: 17rem;
     }
 
     .welcome-text{
-      font-size: 3rem;
-      height: 5rem;
+      font-size: 5rem;
+      height: 7rem;
     }
 
     .App-button {
       padding: .7rem 1.5rem;
       font-size: 1rem;
     }
+
+    .App-logo {
+      /* height: 40vmin; */
+      pointer-events: none;
+      position:absolute;
+      left: 330px;
+      top: 220px;
+    }
   }
 
 
   @media screen and (min-width: 576px) and (max-width:767px){
     .App-header {
-      margin-top: 8rem;
+      margin-top: 18rem;
     }
 
     .welcome-text{
-      font-size: 4rem;
+      font-size: 6rem;
       height: 8rem;
+    }
+
+    .App-logo {
+      /* height: 40vmin; */
+      pointer-events: none;
+      position:absolute;
+      right: 200px;
+      top: 250px;
+    }
+
+    .App-button {
+      padding: .7rem 1.5rem;
+      font-size: 1rem;
     }
   }
 
@@ -248,16 +279,16 @@ body{
   }
 
 
-  @media screen and (min-width: 1361px) and (max-width:1399px){
+  @media screen and (min-width: 1361px) and (max-width:1439px){
     .App-header {
-      margin-top: 17rem;
+      margin-top: 19rem;
     }
 
     .App-logo {
       /* height: 40vmin; */
       pointer-events: none;
       position:absolute;
-      left: 350px;
+      left: 360px;
       top: 260px;
     }
 
