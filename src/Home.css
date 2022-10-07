@@ -22,7 +22,7 @@ body{
     background-image: url('/public/castle2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 120vh;
+    min-height: 100vh;
     max-width:100%;
 }
 
@@ -100,12 +100,17 @@ body{
   }
 
   .App-header {
-    margin-top: 8rem;
+    margin-top: 10rem;
   }
 
   .welcome-text{
     font-size: 3rem;
-    height: 7rem;
+    height: 5rem;
+  }
+
+  .App-button {
+    padding: .7rem 1.5rem;
+    font-size: 1rem;
   }
   }
 
@@ -115,24 +120,34 @@ body{
     }  
 
     .App-header {
-      margin-top: 8rem;
+      margin-top: 10rem;
     }
 
     .welcome-text{
       font-size: 3rem;
-      height: 7rem;
+      height: 5rem;
+    }
+
+    .App-button {
+      padding: .7rem 1.5rem;
+      font-size: 1rem;
     }
   }
 
 
   @media screen and (min-width: 481px) and (max-width:575px){
     .App-header {
-      margin-top: 8rem;
+      margin-top: 10rem;
     }
 
     .welcome-text{
       font-size: 3rem;
-      height: 7rem;
+      height: 5rem;
+    }
+
+    .App-button {
+      padding: .7rem 1.5rem;
+      font-size: 1rem;
     }
   }
 
@@ -146,4 +161,161 @@ body{
       font-size: 4rem;
       height: 8rem;
     }
+  }
+
+
+  @media screen and (min-width: 768px) and (max-width:991px){
+    .App-header {
+      margin-top: 18rem;
+    }
+
+    .welcome-text{
+      font-size: 6rem;
+      height: 8rem;
+    }
+
+    .App-logo {
+      /* height: 40vmin; */
+      pointer-events: none;
+      position:absolute;
+      right: 200px;
+      top: 250px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1150px){
+    .App-header {
+      margin-top: 18rem;
+    }
+
+    .welcome-text{
+      font-size: 6rem;
+      height: 8rem;
+    }
+
+    .App-logo {
+      /* height: 40vmin; */
+      pointer-events: none;
+      position:absolute;
+      left: 320px;
+      top: 250px;
+    } 
+  }
+  
+
+
+  @media screen and (min-width: 1151px) and (max-width: 1279px){
+    .App-header {
+      margin-top: 18rem;
+    }
+
+    .welcome-text{
+      font-size: 6rem;
+      height: 8rem;
+    }
+
+    .App-logo {
+      /* height: 40vmin; */
+      pointer-events: none;
+      position:absolute;
+      left: 320px;
+      top: 250px;
+    } 
+  }
+
+  @media screen and (min-width: 1280px) and (max-width:1360px){
+    .App-header {
+      margin-top: 17rem;
+    }
+
+    .App-logo {
+      /* height: 40vmin; */
+      pointer-events: none;
+      position:absolute;
+      left: 350px;
+      top: 250px;
+    }
+
+    .welcome-text{
+      font-size: 6rem;
+      height: 8rem;
+    }
+
+    .App-button {
+      padding: .7rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
+
+
+  @media screen and (min-width: 1361px) and (max-width:1399px){
+    .App-header {
+      margin-top: 17rem;
+    }
+
+    .App-logo {
+      /* height: 40vmin; */
+      pointer-events: none;
+      position:absolute;
+      left: 350px;
+      top: 260px;
+    }
+
+    .welcome-text{
+      font-size: 6rem;
+      height: 7rem;
+    }
+
+    .App-button {
+      padding: .7rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 1440px) and (max-width:1600px){
+    .App-header {
+      margin-top: 16rem;
+    }
+
+    .App-logo {
+      /* height: 40vmin; */
+      pointer-events: none;
+      position:absolute;
+      left: 360px;
+      top: 250px;
+    }
+
+    .welcome-text{
+      font-size: 7rem;
+      height: 9rem;
+    }
+
+    .App-button {
+      padding: .7rem 1.5rem;
+      font-size: 1.2rem;
+    }
+  }
+
+  @media screen and (min-width: 1601px) and (max-width:1799px){
+    .App-header {
+      margin-top: 18rem;
+    }
+
+    .App-logo {
+      /* height: 40vmin; */
+      pointer-events: none;
+      position:absolute;
+      left: 400px;
+      top: 290px;
+    }
+
+    .welcome-text{
+      font-size: 8rem;
+      height: 10rem;
+    }
+
+    .App-button {
+      padding: .7rem 1.5rem;
+      font-size: 1.2rem;
+    } 
   }
