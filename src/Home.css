@@ -172,7 +172,7 @@ body{
 
   @media screen and (min-width: 576px) and (max-width:767px){
     .App-header {
-      margin-top: 18rem;
+      margin-top: 16rem;
     }
 
     .welcome-text{
@@ -184,8 +184,8 @@ body{
       /* height: 40vmin; */
       pointer-events: none;
       position:absolute;
-      right: 200px;
-      top: 250px;
+      left: 400px;
+      top: 200px;
     }
 
     .App-button {
@@ -197,7 +197,7 @@ body{
 
   @media screen and (min-width: 768px) and (max-width:991px){
     .App-header {
-      margin-top: 18rem;
+      margin-top: 15rem;
     }
 
     .welcome-text{
@@ -209,14 +209,20 @@ body{
       /* height: 40vmin; */
       pointer-events: none;
       position:absolute;
-      right: 200px;
-      top: 250px;
+      left: 600px;
+      top: 200px;
+    }
+
+    
+    .App-button {
+      padding: .7rem 1.5rem;
+      font-size: 1rem;
     }
   }
   
   @media screen and (min-width: 992px) and (max-width: 1150px){
     .App-header {
-      margin-top: 18rem;
+      margin-top: 13rem;
     }
 
     .welcome-text{
@@ -228,16 +234,22 @@ body{
       /* height: 40vmin; */
       pointer-events: none;
       position:absolute;
-      left: 320px;
-      top: 250px;
+      left: 300px;
+      top: 180px;
     } 
+
+    
+    .App-button {
+      padding: .7rem 1.5rem;
+      font-size: 1rem;
+    }
   }
   
 
 
   @media screen and (min-width: 1151px) and (max-width: 1279px){
     .App-header {
-      margin-top: 18rem;
+      margin-top: 13rem;
     }
 
     .welcome-text{
@@ -249,9 +261,16 @@ body{
       /* height: 40vmin; */
       pointer-events: none;
       position:absolute;
-      left: 320px;
-      top: 250px;
+      left: 290px;
+      top: 190px;
+      
     } 
+
+    
+    .App-button {
+      padding: .7rem 1.5rem;
+      font-size: 1rem;
+    }
   }
 
   @media screen and (min-width: 1280px) and (max-width:1360px){
@@ -281,20 +300,20 @@ body{
 
   @media screen and (min-width: 1361px) and (max-width:1439px){
     .App-header {
-      margin-top: 19rem;
+      margin-top: 14rem;
     }
 
     .App-logo {
       /* height: 40vmin; */
       pointer-events: none;
       position:absolute;
-      left: 360px;
-      top: 260px;
+      left: 300px;
+      top: 220px;
     }
 
     .welcome-text{
       font-size: 6rem;
-      height: 7rem;
+      height: 8rem;
     }
 
     .App-button {
